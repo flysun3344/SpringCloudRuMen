@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableDiscoveryClient
 @EnableCircuitBreaker
-@SpringBootApplication
+@SpringBootApplication   //上面三个注解可以直接使用@SpringCloudApplication代替
 public class HystrixRibbonApplication {
 
 	@Bean
